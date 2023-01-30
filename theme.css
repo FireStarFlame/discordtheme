@@ -1,0 +1,78 @@
+/**
+ * @name Bee Swarm Simulator
+ * @author FireStarFlame#7899
+ * @version 1.0.0
+ * @description Experience the bees.
+ * @invite bee
+ * @authorId 867408568764071976
+ * @BDEditor Bee Theme
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;300;400;500;700&display=swap');
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://i.imgur.com/GpurXBU.jpg');
+  --background-image-blur: 5px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-image: transparent;
+  --popout-image-blur: 5px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: var(--background-image);
+  --overlay-image-blur: 8px;
+  --overlay-image-size: cover;
+  --overlay-image-position: center;
+  --home-button-image: url('https://i.imgur.com/tW2fQmA.png');
+  --home-button-size: 80%;
+  --home-button-position: center;
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.7;
+  --middle-brightness: 0.6;
+  --right-brightness: 0;
+  --overlay-brightness: 0.7;
+  --gradient-primary: 50,131,255;
+  --gradient-secondary: 50,131,255;
+  --link-colour: #2257A8;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 320deg;
+  --tint-colour: 255,235,59;
+  --tint-brightness: 0;
+  --font: Source Sans Pro;
+  --window-padding: 20px;
+  --window-roundness: 10px;
+  --update-notice-1: none;
+  
+}
+
+html:only-child > head + body div.typeWindows-2-g3UY.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr > div.wordmark-2u86JB {
+	display: block !important;
+	position: absolute !important;
+	max-width: unset !important;
+	min-width: unset !important;
+	width: 55px !important;
+	max-height: unset !important;
+	min-height: unset !important;
+	height: 16px !important;
+	margin: 0 !important;
+	padding: 3px 9px 3px !important;
+	top: 0 !important;
+	left: 0 !important;
+	bottom: unset !important;
+	right: unset !important;
+	opacity: 1 !important;
+	visibility: visible !important;
+	transform: unset !important;
+	animation: unset !important;
+}
+html:only-child > head + body div.typeWindows-2-g3UY.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr > div.wordmark-2u86JB > * {
+	display: none !important;
+}
+html:only-child > head + body div.typeWindows-2-g3UY.titleBar-1it3bQ.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr > div.wordmark-2u86JB::before {
+	content: "" !important;
+	background: rgb(125,125,125) !important;
+	-webkit-mask: url('');
+}
